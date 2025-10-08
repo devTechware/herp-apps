@@ -1,0 +1,662 @@
+[
+  {
+    "image": "https://i.ibb.co.com/Mx4nCqYZ/SmPlan.webp",
+    "title": "SmPlan: ToDo List With Reminder",
+    "companyName": "productive.io",
+    "id": 1,
+    "description": "SmPlan is a complete productivity management solution designed for busy individuals who want to take control of their tasks. It allows users to create categorized to-do lists, attach reminders, and schedule tasks with visual timelines. Built on the Pomodoro principle, the app helps maintain focus and avoid burnout by splitting work into efficient intervals. A statistics dashboard displays performance insights over days and weeks, while data synchronization keeps everything up to date across devices. SmPlan’s lightweight design, combined with dark and light modes, makes it the perfect assistant for both work and study routines.",
+    "size": 291,
+    "reviews": 54000,
+    "ratingAvg": 4.9,
+    "downloads": 8000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1800
+      },
+      {
+        "name": "3 star",
+        "count": 3200
+      },
+      {
+        "name": "4 star",
+        "count": 6400
+      },
+      {
+        "name": "5 star",
+        "count": 11500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Dfh1KZ2y/FocusZen.webp",
+    "title": "FocusZen: Study Timer & Planner",
+    "companyName": "mindflow.app",
+    "id": 2,
+    "description": "FocusZen is a balanced study and productivity planner that helps students and professionals manage work sessions efficiently. It combines deep work sessions, break intervals, and task organization to encourage sustainable productivity. The app includes ambient background sounds, daily focus targets, and visual progress tracking. Users can set focus goals for each subject or project and measure concentration through insightful reports. With its distraction-free design and simple navigation, FocusZen promotes long-term consistency. It supports both light and dark themes, offline mode, and integration with major cloud platforms for easy backup.",
+    "size": 245,
+    "reviews": 32600,
+    "ratingAvg": 4.7,
+    "downloads": 5600000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1600
+      },
+      {
+        "name": "3 star",
+        "count": 2800
+      },
+      {
+        "name": "4 star",
+        "count": 6400
+      },
+      {
+        "name": "5 star",
+        "count": 9700
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Qj8FZh0d/TimeTrek.png",
+    "title": "TimeTrek: Daily Goal Tracker",
+    "companyName": "goalverse.co",
+    "id": 3,
+    "description": "TimeTrek transforms how users set, track, and achieve goals by offering a gamified experience with performance analytics. The app enables users to define daily objectives, assign timers, and visualize progress in real-time through intuitive charts. Built with habit psychology principles, TimeTrek rewards consistency with badges and motivational feedback. It’s ideal for professionals, students, and freelancers aiming to maintain discipline. The integrated AI coach analyzes patterns and suggests actionable insights for improvement. With cross-device synchronization and privacy-friendly storage, TimeTrek ensures users stay organized and motivated every day.",
+    "size": 180,
+    "reviews": 29800,
+    "ratingAvg": 4.6,
+    "downloads": 4200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 1500
+      },
+      {
+        "name": "3 star",
+        "count": 2500
+      },
+      {
+        "name": "4 star",
+        "count": 5800
+      },
+      {
+        "name": "5 star",
+        "count": 9300
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nMX8w1z6/Habit-Flow.webp",
+    "title": "HabitFlow: Routine Builder",
+    "companyName": "lifestack.io",
+    "id": 4,
+    "description": "HabitFlow is a beautifully designed habit tracker that helps users form strong, consistent routines. With customizable habit templates, progress streaks, and insightful reminders, it makes daily self-improvement simple and rewarding. The app’s built-in analytics highlight success patterns while identifying weak points to focus on. HabitFlow’s visualization dashboard shows how habits influence overall performance. Users can also collaborate with friends, creating accountability circles for shared goals. From fitness and reading to career growth, HabitFlow brings structure and motivation to everyday routines through an elegant and user-friendly experience.",
+    "size": 201,
+    "reviews": 41000,
+    "ratingAvg": 4.8,
+    "downloads": 7100000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 2500
+      },
+      {
+        "name": "4 star",
+        "count": 5800
+      },
+      {
+        "name": "5 star",
+        "count": 9600
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Xf2dx1w0/NoteNest.jpg",
+    "title": "NoteNest: Smart Notes & Planner",
+    "companyName": "cloudpad.dev",
+    "id": 5,
+    "description": "NoteNest combines intelligent note-taking and planning in one cohesive workspace. Users can organize ideas, attach voice memos, link related notes, and integrate deadlines into a daily planner. Its AI-powered smart search makes retrieving information quick and easy. Notes can be converted into tasks with one tap, and everything stays synced across devices. The app’s markdown support, tagging system, and collaboration features make it suitable for both personal and professional projects. With end-to-end encryption and offline editing, NoteNest ensures a secure and flexible workflow that adapts to every user’s creative process.",
+    "size": 312,
+    "reviews": 22000,
+    "ratingAvg": 4.5,
+    "downloads": 3900000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1600
+      },
+      {
+        "name": "3 star",
+        "count": 2900
+      },
+      {
+        "name": "4 star",
+        "count": 4900
+      },
+      {
+        "name": "5 star",
+        "count": 6600
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/x85KLnzd/Mind-Track.jpg",
+    "title": "MindTrack: Focus Analytics",
+    "companyName": "neurotech.io",
+    "id": 6,
+    "description": "MindTrack is a next-generation productivity tracker that uses artificial intelligence to analyze focus habits. It monitors active work sessions, identifies periods of distraction, and generates personalized productivity insights. The app connects with calendar and task tools to help users schedule work according to their optimal energy levels. MindTrack includes daily, weekly, and monthly reports with easy-to-understand graphs. Its minimalist design ensures zero clutter while providing deep insights into performance patterns. Users can export focus data and adjust strategies to maximize efficiency over time, making it a perfect companion for goal-oriented individuals.",
+    "size": 330,
+    "reviews": 18700,
+    "ratingAvg": 4.3,
+    "downloads": 2400000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1300
+      },
+      {
+        "name": "2 star",
+        "count": 1700
+      },
+      {
+        "name": "3 star",
+        "count": 3000
+      },
+      {
+        "name": "4 star",
+        "count": 4200
+      },
+      {
+        "name": "5 star",
+        "count": 5500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B25vSZ3J/CalMind.png",
+    "title": "CalMind: Meditation & Focus",
+    "companyName": "zenlabs.ai",
+    "id": 7,
+    "description": "CalMind blends meditation, mindfulness, and productivity techniques to enhance focus and mental clarity. It provides guided meditation sessions, background ambient sounds, and a focus timer that syncs with your schedule. The app encourages balance by reminding users to rest and breathe during long work sessions. Personalized mood tracking and stress analysis help users identify emotional patterns. CalMind also offers a gratitude journal, daily affirmations, and sleep mode for better rest. Its smooth animations, soothing color palette, and lightweight performance make it a refreshing addition to any work or self-care routine.",
+    "size": 289,
+    "reviews": 35400,
+    "ratingAvg": 4.8,
+    "downloads": 6200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1300
+      },
+      {
+        "name": "3 star",
+        "count": 2500
+      },
+      {
+        "name": "4 star",
+        "count": 5400
+      },
+      {
+        "name": "5 star",
+        "count": 9000
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/d0XrRMPg/TaskZen.jpg",
+    "title": "TaskZen: Smart Task Organizer",
+    "companyName": "smartlist.dev",
+    "id": 8,
+    "description": "TaskZen revolutionizes task management with an AI-powered prioritization system that helps users focus on what matters most. It supports natural language input, so tasks like 'Call John tomorrow at 3 PM' automatically turn into scheduled reminders. The app includes drag-and-drop organization, labels, filters, and real-time synchronization. Users can set long-term goals, track daily progress, and view productivity trends through a sleek dashboard. TaskZen’s team collaboration mode lets multiple users share lists and track group progress effortlessly. It’s the perfect digital companion for teams, freelancers, and individuals aiming for structured success.",
+    "size": 198,
+    "reviews": 31200,
+    "ratingAvg": 4.6,
+    "downloads": 4600000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1400
+      },
+      {
+        "name": "3 star",
+        "count": 2600
+      },
+      {
+        "name": "4 star",
+        "count": 5800
+      },
+      {
+        "name": "5 star",
+        "count": 8700
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Pv6gj0bS/Study-Mate.jpg",
+    "title": "StudyMate: Focus & Planner",
+    "companyName": "learnhub.io",
+    "id": 9,
+    "description": "StudyMate is the ultimate academic productivity tool for students and researchers. It combines a Pomodoro-based focus timer, customizable schedules, and study analytics. The app provides smart suggestions on when to study specific subjects based on performance data. Users can record progress, attach notes, and even manage group study sessions. StudyMate rewards consistent study habits with achievements and reminders. Its integration with cloud storage platforms ensures notes and data remain safe. The modern UI and powerful analytics make it ideal for anyone serious about improving focus, learning efficiency, and time management.",
+    "size": 254,
+    "reviews": 21000,
+    "ratingAvg": 4.7,
+    "downloads": 3900000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 2200
+      },
+      {
+        "name": "4 star",
+        "count": 4600
+      },
+      {
+        "name": "5 star",
+        "count": 8900
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/CRJVgXt/Pomoflow.png",
+    "title": "Pomoflow: Focus Sessions",
+    "companyName": "flowtime.app",
+    "id": 10,
+    "description": "Pomoflow refines the classic Pomodoro technique with modern productivity insights. The app helps users schedule focused sessions, automatically track breaks, and visualize performance through charts. Each completed session contributes to a streak count that motivates consistent practice. Pomoflow includes themes, focus sounds, and integration with calendars and task lists. It’s designed to eliminate distractions by locking the screen during sessions. The analytics dashboard breaks down productivity by project and day, offering valuable insights. Lightweight, intuitive, and elegant, Pomoflow is a must-have for anyone serious about personal focus management.",
+    "size": 175,
+    "reviews": 26700,
+    "ratingAvg": 4.9,
+    "downloads": 5800000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 400
+      },
+      {
+        "name": "2 star",
+        "count": 800
+      },
+      {
+        "name": "3 star",
+        "count": 1500
+      },
+      {
+        "name": "4 star",
+        "count": 4700
+      },
+      {
+        "name": "5 star",
+        "count": 9500
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/MytSTvcs/MindPlan.png",
+    "title": "MindPlan: Focus Journal",
+    "companyName": "clarity.dev",
+    "id": 11,
+    "description": "MindPlan is a digital journal that merges mindfulness and productivity. It allows users to record focus sessions, reflect on mood patterns, and document accomplishments. Each day’s journal entry links with tasks and productivity data to create a holistic self-awareness system. The app also features daily prompts to encourage reflection and growth. MindPlan includes privacy options, customizable templates, and synchronization across devices. Users can export journals as PDF reports. Designed with a calming interface and smooth navigation, MindPlan helps individuals maintain mental clarity while improving focus and emotional balance.",
+    "size": 215,
+    "reviews": 19400,
+    "ratingAvg": 4.5,
+    "downloads": 3300000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1400
+      },
+      {
+        "name": "3 star",
+        "count": 2500
+      },
+      {
+        "name": "4 star",
+        "count": 4400
+      },
+      {
+        "name": "5 star",
+        "count": 7300
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/B522Zp34/ZenTime.jpg",
+    "title": "ZenTime: Deep Work Timer",
+    "companyName": "focuslab.app",
+    "id": 12,
+    "description": "ZenTime simplifies the concept of deep work by helping users create uninterrupted focus sessions. It allows customizable session durations, soundscapes for concentration, and scheduled breaks to prevent fatigue. The app tracks focus scores and session lengths to build personalized statistics over time. ZenTime’s minimalist interface removes distractions and enhances immersion. It also integrates with calendar apps to sync tasks seamlessly. With daily and weekly performance summaries, users can review their focus progress easily. ZenTime’s balance of simplicity and analytics makes it a powerful tool for those seeking to master their attention.",
+    "size": 142,
+    "reviews": 22600,
+    "ratingAvg": 4.7,
+    "downloads": 3500000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 1100
+      },
+      {
+        "name": "3 star",
+        "count": 2300
+      },
+      {
+        "name": "4 star",
+        "count": 4900
+      },
+      {
+        "name": "5 star",
+        "count": 7600
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ym6y801B/Goalify.png",
+    "title": "Goalify: Smart Habits",
+    "companyName": "lifego.app",
+    "id": 13,
+    "description": "Goalify enables users to create structured, measurable goals with clear deadlines. It breaks large objectives into smaller milestones and tracks progress with color-coded visuals. The app’s adaptive reminders keep users motivated, while built-in analytics display long-term improvement trends. Goalify also includes group challenges, where friends or teammates can pursue goals together. Whether tracking health, fitness, or career growth, the app adapts to personal needs. Data synchronization ensures users never lose progress. Its clean interface, performance insights, and motivational notifications make Goalify an all-in-one solution for goal management.",
+    "size": 200,
+    "reviews": 16300,
+    "ratingAvg": 4.4,
+    "downloads": 2800000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1400
+      },
+      {
+        "name": "3 star",
+        "count": 2300
+      },
+      {
+        "name": "4 star",
+        "count": 4000
+      },
+      {
+        "name": "5 star",
+        "count": 5900
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TM3JVqwb/Task-Pilot.png",
+    "title": "TaskPilot: Daily Productivity",
+    "companyName": "taskpro.io",
+    "id": 14,
+    "description": "TaskPilot centralizes productivity with a sleek and efficient daily dashboard. It helps users organize work, meetings, and personal goals in one place. Using AI prioritization, it recommends which tasks to handle first for optimal results. TaskPilot includes a time tracker, performance summaries, and collaboration options for small teams. The app’s focus mode hides unnecessary distractions, allowing users to concentrate fully. Regular reports help identify productivity trends, while smart reminders prevent task overload. With its elegant UI and fast synchronization, TaskPilot delivers both simplicity and power for everyday productivity needs.",
+    "size": 228,
+    "reviews": 31000,
+    "ratingAvg": 4.8,
+    "downloads": 6800000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 500
+      },
+      {
+        "name": "2 star",
+        "count": 1100
+      },
+      {
+        "name": "3 star",
+        "count": 2400
+      },
+      {
+        "name": "4 star",
+        "count": 5000
+      },
+      {
+        "name": "5 star",
+        "count": 8900
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/hxR5xMJr/FlowNest.jpg",
+    "title": "FlowNest: Study & Work Timer",
+    "companyName": "mindshift.app",
+    "id": 15,
+    "description": "FlowNest is designed for those who value structure in their daily routine. It uses timed focus cycles, task grouping, and analytics to help users build sustainable work habits. The app provides streak tracking, visual goals, and soundscapes that enhance productivity. Users can plan study sessions or professional tasks with real-time feedback on efficiency. FlowNest supports multi-device syncing and customizable themes. Whether studying for exams or managing workloads, its adaptive notifications keep users on track. Built for simplicity and flow, it’s a powerful companion for achieving consistent focus and long-term success.",
+    "size": 189,
+    "reviews": 18400,
+    "ratingAvg": 4.6,
+    "downloads": 4100000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 900
+      },
+      {
+        "name": "2 star",
+        "count": 1200
+      },
+      {
+        "name": "3 star",
+        "count": 2600
+      },
+      {
+        "name": "4 star",
+        "count": 4900
+      },
+      {
+        "name": "5 star",
+        "count": 7800
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Hv093tb/Clockly.png",
+    "title": "Clockly: Smart Timer",
+    "companyName": "timemaster.co",
+    "id": 16,
+    "description": "Clockly redefines how timers work by blending time management with insightful data visualization. Users can run multiple timers simultaneously, categorize them by task type, and track usage statistics. The app automatically logs completed sessions and provides summaries showing where time is best spent. Ideal for freelancers, students, and professionals, Clockly promotes awareness of productivity habits. The customizable themes, focus sounds, and integration options make it highly versatile. Its precise analytics help identify productivity peaks, ensuring users plan effectively and accomplish more with less stress. Clockly is a complete time mastery solution.",
+    "size": 256,
+    "reviews": 27500,
+    "ratingAvg": 4.7,
+    "downloads": 5200000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 800
+      },
+      {
+        "name": "2 star",
+        "count": 1300
+      },
+      {
+        "name": "3 star",
+        "count": 2400
+      },
+      {
+        "name": "4 star",
+        "count": 5200
+      },
+      {
+        "name": "5 star",
+        "count": 8800
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/39sgdhNd/Habit-Sync.jpg",
+    "title": "HabitSync: Routine Tracker",
+    "companyName": "syncly.dev",
+    "id": 17,
+    "description": "HabitSync makes building positive routines simple and data-driven. It synchronizes user progress across devices, ensuring every habit update is saved instantly. The app visualizes streaks, completion rates, and performance graphs for motivation. With flexible habit scheduling and detailed history logs, users can measure their growth over weeks and months. HabitSync offers group habit tracking, so teams or families can encourage each other. Push reminders keep users consistent, while a minimalist UI ensures focus. It’s a powerful tool for anyone aiming to improve lifestyle consistency and stay accountable to personal growth goals.",
+    "size": 240,
+    "reviews": 15400,
+    "ratingAvg": 4.3,
+    "downloads": 2600000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1400
+      },
+      {
+        "name": "3 star",
+        "count": 2400
+      },
+      {
+        "name": "4 star",
+        "count": 3800
+      },
+      {
+        "name": "5 star",
+        "count": 5800
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/k6kZJJGk/DailyZen.jpg",
+    "title": "DailyZen: Routine & Focus",
+    "companyName": "zenstack.io",
+    "id": 18,
+    "description": "DailyZen blends productivity and mindfulness to help users stay organized without burnout. It encourages users to balance work and rest through guided breathing, focus sessions, and gratitude journaling. The app includes a built-in task planner with reminders and motivational prompts. With visually calming themes and daily insights, it promotes a healthier work-life rhythm. Users can track their mental wellness trends and receive AI-suggested routines for improvement. DailyZen’s all-in-one structure makes it suitable for professionals and students alike who want harmony between efficiency, relaxation, and self-awareness.",
+    "size": 213,
+    "reviews": 17300,
+    "ratingAvg": 4.6,
+    "downloads": 3400000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 700
+      },
+      {
+        "name": "2 star",
+        "count": 1000
+      },
+      {
+        "name": "3 star",
+        "count": 2000
+      },
+      {
+        "name": "4 star",
+        "count": 4200
+      },
+      {
+        "name": "5 star",
+        "count": 7400
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Fbdy6VdD/ProTask.png",
+    "title": "ProTask: Goal & Time Manager",
+    "companyName": "prodev.app",
+    "id": 19,
+    "description": "ProTask combines advanced project management tools with time optimization analytics. It allows users to set strategic goals, manage sub-tasks, and monitor completion rates in real-time. The app’s smart assistant suggests task priorities based on deadlines and workload balance. Users can collaborate through shared boards and receive detailed productivity reports. ProTask includes calendar sync, time blocking, and notifications for overdue activities. Its clean interface makes it easy for teams or solo users to stay organized. With data encryption and cloud backup, ProTask delivers reliability, clarity, and focus for any workflow or project type.",
+    "size": 332,
+    "reviews": 29800,
+    "ratingAvg": 4.7,
+    "downloads": 5900000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 1000
+      },
+      {
+        "name": "2 star",
+        "count": 1600
+      },
+      {
+        "name": "3 star",
+        "count": 2700
+      },
+      {
+        "name": "4 star",
+        "count": 5400
+      },
+      {
+        "name": "5 star",
+        "count": 9200
+      }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nqs4nkWZ/MindLoop.jpg",
+    "title": "MindLoop: Focus & Habit Coach",
+    "companyName": "flowcoach.io",
+    "id": 20,
+    "description": "MindLoop is a productivity and habit coaching app that guides users toward balance and consistency. It integrates focus timers, progress tracking, and motivational quotes into one personalized experience. The app helps users recognize their energy cycles and schedule tasks accordingly. With its AI-driven insights, MindLoop offers tailored suggestions for optimizing workflow and improving mental resilience. Users can track achievements, review focus history, and connect with supportive communities. Designed for minimal distraction and maximum clarity, MindLoop serves as both a focus enhancer and a mindful life improvement coach.",
+    "size": 265,
+    "reviews": 24100,
+    "ratingAvg": 4.8,
+    "downloads": 4700000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 600
+      },
+      {
+        "name": "2 star",
+        "count": 1100
+      },
+      {
+        "name": "3 star",
+        "count": 2000
+      },
+      {
+        "name": "4 star",
+        "count": 4700
+      },
+      {
+        "name": "5 star",
+        "count": 8400
+      }
+    ]
+  }
+]
