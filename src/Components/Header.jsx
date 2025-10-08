@@ -55,8 +55,8 @@ const Header = () => {
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li className="hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
+          <ul className="flex items-center gap-2 px-1">
+            <li className="px-2 py-1 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
               <NavLink
                 className={({ isActive }) =>
                   isActive
@@ -68,7 +68,7 @@ const Header = () => {
                 Home
               </NavLink>
             </li>
-            <li className="hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
+            <li className="px-2 py-1 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
               <NavLink
                 className={({ isActive }) =>
                   isActive
@@ -80,7 +80,7 @@ const Header = () => {
                 Apps
               </NavLink>
             </li>
-            <li className="hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
+            <li className="px-2 py-1 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
               <NavLink
                 className={({ isActive }) =>
                   isActive
@@ -95,7 +95,14 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <NavLink target="_blank" to="https://github.com/devTechware" className="btn text-white bg-gradient-to-br from-[#632EE3] to-[#9F62F2]"><FaGithub />Contribute</NavLink>
+          <NavLink
+            target="_blank"
+            to="https://github.com/devTechware"
+            className="btn text-white bg-gradient-to-br from-[#632EE3] to-[#9F62F2]"
+          >
+            <FaGithub />
+            Contribute
+          </NavLink>
         </div>
       </div>
     </div>
