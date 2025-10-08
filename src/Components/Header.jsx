@@ -48,14 +48,14 @@ const Header = () => {
             to="/"
             className="text-xl flex items-center gap-2 ml-2 lg:ml-0"
           >
-            <img className="w-[40px]" src={Logo} alt="" />{" "}
+            <img className="w-[40px]" src={Logo} alt="Hero Apps Logo" />{" "}
             <span className="text-xl font-extrabold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
               HERO.IO
             </span>
           </NavLink>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex items-center gap-2 px-1">
+          <ul className="flex items-center gap-2 px-1 text-sm">
             <li className="px-2 py-1 hover:bg-gradient-to-br from-[#632EE3] to-[#9F62F2] hover:rounded-md hover:text-white">
               <NavLink
                 className={({ isActive }) =>
