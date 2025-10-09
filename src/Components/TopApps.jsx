@@ -1,9 +1,13 @@
 import { Link } from "react-router";
 import useApps from "../hooks/useApps";
 import AppCard from "./AppCard";
+import Loading from "./Loading";
 
 const TopApps = () => {
-  const { apps } = useApps();
+  const { apps, loading } = useApps();
+  if (loading) {
+    return <Loading />;
+  }
   const trendingApps = apps.slice(0, 8);
 
   return (
