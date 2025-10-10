@@ -1,8 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { PiDownloadSimpleBold } from "react-icons/pi";
 import { compactNumber } from "../utils/compactNumber";
 import { toast } from "react-toastify";
+import Loading from "../Components/Loading";
 
 const Installation = () => {
   const loadInstalledApps = () => {
@@ -19,6 +20,18 @@ const Installation = () => {
 
   const [installedApps, setInstalledApps] = useState(() => loadInstalledApps());
   const [sortOrder, setSortOrder] = useState("none");
+  const [showContent, setShowContent] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowContent(true);
+    }, 500);
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (!showContent) {
+    return <Loading />;
+  }
 
   const sortedItem = (() => {
     if (sortOrder === "downloads-asc") {
@@ -41,7 +54,7 @@ const Installation = () => {
         </p>
 
         {!installedApps.length ? (
-          <h1 className="text-center py-10 text-5xl font-extrabold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
+          <h1 className="text-center py-10 text-4xl md:text-5xl font-extrabold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
             No App Installed
           </h1>
         ) : (

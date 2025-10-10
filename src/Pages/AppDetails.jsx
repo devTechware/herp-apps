@@ -1,4 +1,4 @@
-import { Link, useParams } from "react-router";
+import { Link, useLocation, useParams } from "react-router";
 import useApps from "../hooks/useApps";
 import IconDownload from "../assets/icon-downloads.png";
 import IconRating from "../assets/icon-ratings.png";
@@ -15,16 +15,17 @@ const AppDetails = () => {
   const { apps, loading } = useApps();
   const [installed, setInstalled] = useState(() => getInstallationStatus());
   const [showContent, setShowContent] = useState(false);
-  console.log(installed);
-  
+  const { pathname } = useLocation();
+
   useEffect(() => {
+    window.scrollTo(0, 0);
     if (!loading) {
       const timer = setTimeout(() => {
         setShowContent(true);
       }, 500);
       return () => clearTimeout(timer);
     }
-  }, [loading]);
+  }, [pathname, loading]);
 
   if (loading || !showContent) {
     return <Loading />;
@@ -78,7 +79,7 @@ const AppDetails = () => {
 
     localStorage.setItem("installation", JSON.stringify(updatedInstallation));
     setInstalled(true);
-    toast("Added to Installation");
+    toast(`${app.title} Added to Installation`);
   };
 
   return (

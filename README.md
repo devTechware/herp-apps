@@ -40,6 +40,7 @@ Our goal is to **transform ideas into digital experiences** that truly make an i
 ### 1️⃣ Clone the repository
 
 git clone https://github.com/devTechware/hero-apps.git
+
 cd hero-apps
 
 ---
@@ -71,7 +72,8 @@ Building reusable, maintainable code components
 
 ---
 
-We welcome contributions!
+## We welcome contributions!
+
 If you’d like to help improve HERO.IO, feel free to:
 
 Fork the repo
@@ -82,6 +84,6 @@ Submit a pull request
 
 ---
 
-📄 License
+## 📄 License
 
 This project is open-source and available under the MIT License.
