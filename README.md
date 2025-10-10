@@ -37,7 +37,7 @@ Our goal is to **transform ideas into digital experiences** that truly make an i
 
 ## 🧑‍💻 Getting Started
 
-### 1️⃣ Clone the repository
+### Clone the repository
 
 git clone https://github.com/devTechware/hero-apps.git
 

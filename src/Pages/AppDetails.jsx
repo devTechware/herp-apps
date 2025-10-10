@@ -31,7 +31,7 @@ const AppDetails = () => {
     return <Loading />;
   }
 
-  const isValidRoute = apps?.some((app) => String(app?.id) === id);
+  const isValidRoute = apps && apps?.some((app) => String(app?.id) === id);
   if (!isValidRoute) {
     return <AppRouteError />;
   }
@@ -53,7 +53,8 @@ const AppDetails = () => {
   const reverseRatings = ratings?.slice().reverse();
 
   function getInstallationStatus() {
-    const installedApps = JSON.parse(localStorage.getItem("installation"));
+    const installedApps =
+      JSON.parse(localStorage.getItem("installation")) || [];
 
     const existApp = installedApps.some((a) => String(a.id) === id);
 
@@ -61,9 +62,8 @@ const AppDetails = () => {
   }
 
   const handleAddToInstallation = () => {
-    const existingInstallation = JSON.parse(
-      localStorage.getItem("installation")
-    );
+    const existingInstallation =
+      JSON.parse(localStorage.getItem("installation")) || [];
     let updatedInstallation = [];
 
     if (existingInstallation) {
@@ -79,7 +79,7 @@ const AppDetails = () => {
 
     localStorage.setItem("installation", JSON.stringify(updatedInstallation));
     setInstalled(true);
-    toast(`${app.title} Added to Installation`);
+    toast(`"${app.title}" Added to Installation`);
   };
 
   return (

@@ -14,7 +14,7 @@ const Apps = () => {
     const timer = setTimeout(() => setSearchLoading(false), 500);
     return () => clearTimeout(timer);
   }, [search]);
-  
+
   if (loading) {
     return <Loading />;
   }

@@ -8,7 +8,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const RatingChart = ({ data }) => {  
+const RatingChart = ({ data }) => {
   return (
     <div className="w-full h-80 bg-white rounded-xl shadow-sm p-4">
       <h2 className="text-lg font-semibold mb-3">Ratings</h2>

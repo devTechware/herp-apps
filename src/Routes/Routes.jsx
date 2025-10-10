@@ -4,7 +4,6 @@ import Home from "../Pages/Home";
 import Apps from "../Pages/Apps";
 import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppDetails";
-import { ToastContainer } from 'react-toastify';
 import Loading from "../Components/Loading";
 import PageError from "../Components/PageError";
 
@@ -17,22 +16,22 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        Component: Home
+        Component: Home,
       },
       {
         path: "/apps",
-        Component: Apps
+        Component: Apps,
       },
       {
         path: "/installation",
-        Component: Installation
+        Component: Installation,
       },
       {
-        path: "/app-details/:id",        
-        Component: AppDetails
-      }
+        path: "/app-details/:id",
+        Component: AppDetails,
+      },
     ],
-  }
+  },
 ]);
 
 export default router;
