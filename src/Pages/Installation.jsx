@@ -20,13 +20,6 @@ const Installation = () => {
   const [installedApps, setInstalledApps] = useState(() => loadInstalledApps());
   const [sortOrder, setSortOrder] = useState("none");
 
-  // if (!installedApps.length)
-  //   return (
-  //     <h1 className="text-center py-10 text-5xl font-extrabold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-  //       No App Installed
-  //     </h1>
-  //   );
-
   const sortedItem = (() => {
     if (sortOrder === "downloads-asc") {
       return [...installedApps].sort((a, b) => a.downloads - b.downloads);
@@ -53,7 +46,7 @@ const Installation = () => {
           </h1>
         ) : (
           <>
-            <div className="flex justify-between py-5 items-center">
+            <div className="flex flex-col gap-4 md:flex-row md:gap-0 justify-between py-5 items-center">
               <h1 className="text-3xl font-semibold">
                 <span className="text-xl font-bold text-gray-500">
                   ({sortedItem.length}) Apps Found.

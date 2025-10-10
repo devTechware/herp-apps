@@ -9,7 +9,7 @@ const useApps = () => {
   useEffect(() => {
     setLoading(true);
     axios("/appsData.json")
-    .then(data => setApps(data.data))
+    .then(data => setApps((data.data).slice().reverse()))
     .catch(err => setError(err))
     .finally(() => setLoading(false))
   },[]);

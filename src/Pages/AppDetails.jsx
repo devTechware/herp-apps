@@ -5,17 +5,34 @@ import IconRating from "../assets/icon-ratings.png";
 import IconReview from "../assets/icon-review.png";
 import RatingChart from "../Components/RatingChart";
 import { compactNumber } from "../utils/compactNumber";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import Loading from "../Components/Loading";
+import AppRouteError from "../Components/AppRouteError";
 
 const AppDetails = () => {
   const { id } = useParams();
   const { apps, loading } = useApps();
-  const [installed, setInstalled] = useState(false);
+  const [installed, setInstalled] = useState(() => getInstallationStatus());
+  const [showContent, setShowContent] = useState(false);
+  console.log(installed);
+  
+  useEffect(() => {
+    if (!loading) {
+      const timer = setTimeout(() => {
+        setShowContent(true);
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [loading]);
 
-  if (loading) {
+  if (loading || !showContent) {
     return <Loading />;
+  }
+
+  const isValidRoute = apps?.some((app) => String(app?.id) === id);
+  if (!isValidRoute) {
+    return <AppRouteError />;
   }
 
   const app = apps?.find((data) => data.id === Number(id));
@@ -34,26 +51,20 @@ const AppDetails = () => {
 
   const reverseRatings = ratings?.slice().reverse();
 
-  //   const handleAddToWishList = () => {
-  //     const existingList = JSON.parse(localStorage.getItem('wishlist'))
-  //     let updatedList = []
-  //     if (existingList) {
-  //       const isDuplicate = existingList.some(p => p.id === product.id)
-  //       if (isDuplicate) return alert('Sorry vai')
-  //       updatedList = [...existingList, product]
-  //     } else {
-  //       updatedList.push(product)
-  //     }
-  //     localStorage.setItem('wishlist', JSON.stringify(updatedList))
-  //   }
+  function getInstallationStatus() {
+    const installedApps = JSON.parse(localStorage.getItem("installation"));
+
+    const existApp = installedApps.some((a) => String(a.id) === id);
+
+    return existApp ? true : false;
+  }
 
   const handleAddToInstallation = () => {
     const existingInstallation = JSON.parse(
       localStorage.getItem("installation")
     );
-    console.log(existingInstallation);
-
     let updatedInstallation = [];
+
     if (existingInstallation) {
       const isDuplicate = existingInstallation.some((a) => a.id === app.id);
       if (isDuplicate) {
@@ -61,19 +72,22 @@ const AppDetails = () => {
         return;
       }
       updatedInstallation = [...existingInstallation, app];
-      setInstalled(true);
-      toast("Added to Installation");
     } else {
       updatedInstallation.push(app);
-      setInstalled(true);
-      toast("Added to Installation");
     }
 
     localStorage.setItem("installation", JSON.stringify(updatedInstallation));
+    setInstalled(true);
+    toast("Added to Installation");
   };
 
   return (
-    <div className="bg-[#D2D2D230]">
+    <div
+      className="bg-[#D2D2D230] opacity-0 transition-opacity duration-700 ease-in-out"
+      style={{
+        opacity: showContent ? 1 : 0,
+      }}
+    >
       <div className="w-11/12 mx-auto py-12 space-y-8">
         <div className="flex gap-4 md:gap-8">
           <figure className="w-2/5 lg:w-1/5 overflow-hidden">

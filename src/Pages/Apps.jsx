@@ -1,17 +1,27 @@
 import useApps from "../hooks/useApps";
 import AppCard from "../Components/AppCard";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Loading from "../Components/Loading";
+import AppNotFound from "../Components/AppNotFound";
 
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
+  const [searchLoading, setSearchLoading] = useState(true);
+
+  useEffect(() => {
+    setSearchLoading(true);
+    const timer = setTimeout(() => setSearchLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, [search]);
+  
   if (loading) {
     return <Loading />;
   }
+
   const term = search.trim().toLowerCase();
   const searchApps = term
-    ? apps.filter((data) => data.title.toLowerCase().includes(term))
+    ? apps.filter((data) => data.title?.toLowerCase().includes(term))
     : apps;
 
   return (
@@ -23,6 +33,7 @@ const Apps = () => {
         <p className="text-gray-400 text-xs md:text-sm lg:text-base">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
+
         <div className="flex flex-col md:flex-row gap-4 md:gap-0 justify-between items-center px-2 py-2">
           <span className="font-bold">({searchApps.length}) Apps Found</span>
           <label className="input">
@@ -47,20 +58,23 @@ const Apps = () => {
               onChange={(e) => setSearch(e.target.value)}
               type="search"
               required
-              placeholder="search Apps"
+              placeholder="Search Apps"
             />
           </label>
         </div>
-        {searchApps.length ? (
+
+        {searchLoading ? (
+          <Loading />
+        ) : searchApps.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {searchApps.map((app) => (
               <AppCard key={app.id} app={app} />
             ))}
           </div>
         ) : (
-          <h1 className="text-5xl font-extrabold bg-gradient-to-br from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text">
-            No App Found
-          </h1>
+          <div className="flex flex-col items-center justify-center h-80">
+            <AppNotFound onResetSearch={() => setSearch("")} />
+          </div>
         )}
       </div>
     </div>

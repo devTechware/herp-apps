@@ -2,12 +2,21 @@ import { Link } from "react-router";
 import useApps from "../hooks/useApps";
 import AppCard from "./AppCard";
 import Loading from "./Loading";
+import { useEffect, useState } from "react";
 
 const TopApps = () => {
   const { apps, loading } = useApps();
-  if (loading) {
+  const [showLoading, setShowLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowLoading(false), 500);
+    return () => clearTimeout(timer);
+  }, [loading]);
+
+  if (loading || showLoading) {
     return <Loading />;
   }
+
   const trendingApps = apps.slice(0, 8);
 
   return (
@@ -23,8 +32,12 @@ const TopApps = () => {
           <AppCard key={app.id} app={app} />
         ))}
       </div>
-      <Link to="/apps" className="btn px-8 text-white bg-gradient-to-br from-[#632EE3] to-[#9F62F2]">Show All</Link>
-
+      <Link
+        to="/apps"
+        className="btn px-8 text-white bg-gradient-to-br from-[#632EE3] to-[#9F62F2]"
+      >
+        Show All
+      </Link>
     </div>
   );
 };

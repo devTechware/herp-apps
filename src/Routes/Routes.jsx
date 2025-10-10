@@ -6,12 +6,13 @@ import Installation from "../Pages/Installation";
 import AppDetails from "../Pages/AppDetails";
 import { ToastContainer } from 'react-toastify';
 import Loading from "../Components/Loading";
+import PageError from "../Components/PageError";
 
 const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement: <h1>404 Error</h1>,
+    errorElement: <PageError />,
     hydrateFallbackElement: <Loading />,
     children: [
       {
