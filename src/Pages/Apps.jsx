@@ -3,17 +3,20 @@ import AppCard from "../Components/AppCard";
 import { useState, useEffect } from "react";
 import Loading from "../Components/Loading";
 import AppNotFound from "../Components/AppNotFound";
+import { useLocation } from "react-router";
 
 const Apps = () => {
   const { apps, loading } = useApps();
   const [search, setSearch] = useState("");
   const [searchLoading, setSearchLoading] = useState(true);
+  const { pathname } = useLocation();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     setSearchLoading(true);
     const timer = setTimeout(() => setSearchLoading(false), 500);
     return () => clearTimeout(timer);
-  }, [search]);
+  }, [pathname, search]);
 
   if (loading) {
     return <Loading />;
